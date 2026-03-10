@@ -14,8 +14,7 @@ O projeto foi construído com as seguintes tecnologias:
 Se você estiver voltando a este projeto depois de um tempo, siga estes passos:
 
 ### Instale as dependências:
-Bash
-```
+```bash
 npm install
 ```
 
@@ -27,14 +26,12 @@ DATABASE_URL="mongodb+srv://seu_usuario:sua_senha@cluster.mongodb.net/nome_do_ba
 
 Sincronize o Prisma:
 
-Bash
-```
+```bash
 npx prisma generate
 ```
 
 Inicie o servidor:
 
-Bash
-```
+```bash
 node server.js
 ```
